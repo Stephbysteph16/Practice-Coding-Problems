@@ -5,7 +5,8 @@ def minDaysToBloom(roses, m , k):
     running = 0
 
     if k*m > len(roses):
-            return -1
+        return -1
+    
     # # Too slow
     # while bouquets < m:
     #     bouquets = 0
