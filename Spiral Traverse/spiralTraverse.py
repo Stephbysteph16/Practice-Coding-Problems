@@ -18,11 +18,13 @@ def spiralTraverse(array):
 			result.append(array[row][end_col])
 		# Append the bottom row
 		for col in reversed(range(start_col, end_col)):
+            # Special case to not have repeated values
 			if start_row == end_row:
 				break
 			result.append(array[end_row][col])
 		# Append start row
 		for row in reversed(range(start_row + 1, end_row)):
+            # Special Case to not have repeated values
 			if start_col == end_col:
 				break
 			result.append(array[row][start_col])
