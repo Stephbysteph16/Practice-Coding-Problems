@@ -1,6 +1,6 @@
 def reverseVowels(string):
     if string == None:
-        return None
+        return []
     if string == "":
         return ""
     
@@ -25,4 +25,6 @@ if __name__ == '__main__':
     print(reverseVowels("ALPHABET"))
     print(reverseVowels("BEBECO"))
     print(reverseVowels("AEIOU"))
+    print(reverseVowels(""))
+    print(reverseVowels(None))
     
