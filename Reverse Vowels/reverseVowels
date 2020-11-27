@@ -1,0 +1,6 @@
+Given a string, reverse the order of the vowels in the string while leaving everything else in the same place.
+
+Example:
+
+Input: "ALPHABET"
+Output: "ELPHABAT"
