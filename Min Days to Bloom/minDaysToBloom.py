@@ -29,6 +29,7 @@ def minDaysToBloom(roses, m , k):
     optimal = max(roses)
     
     while left <= right:
+        
         days = int((left+right)/2)
         bouquets = 0
         running = 0

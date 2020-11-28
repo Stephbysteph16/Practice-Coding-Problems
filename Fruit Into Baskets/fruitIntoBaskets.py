@@ -58,6 +58,9 @@ def totalFruit(tree):
     
     # return len(tree[first_pointer:second_pointer + 1])
     
+    if (tree is None or len(tree)):
+        return 0
+    
     old_type = -1
     new_type = -1
     old_amount = 0
